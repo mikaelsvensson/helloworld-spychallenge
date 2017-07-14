@@ -18,7 +18,7 @@ def encrypt(image_file_path, message, output_path, channel, is_vertical=False):
         width * height)
     for i, byte in enumerate(bytes):
         for bit_index in range(0, 8):
-            bit = (0x1) & (byte >> bit_index)
+            bit = (0x1) & (byte >> (7 - bit_index))
             # print 'Bit %d of byte %d is %d' % (bit_index, byte, bit)
 
             pixel_index = i * 8 + bit_index
@@ -49,7 +49,7 @@ def decrypt(image_file_path, channel, is_vertical=False):
     for byte_index in range(0, width * height):
         byte = 0
         for bit_index in range(0, 8):
-            pixel_index = byte_index * 8 + bit_index
+            pixel_index = byte_index * 8 + (7 - bit_index)
             pixel_x = pixel_index / height if is_vertical else pixel_index % width
             pixel_y = pixel_index % height if is_vertical else pixel_index / width
             (r, g, b) = pix[pixel_x, pixel_y]
