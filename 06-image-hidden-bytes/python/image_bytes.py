@@ -71,13 +71,13 @@ message = (
     'lines of a private letter. Some implementations of steganography that lack a shared secret are forms of security through obscurity, '
     'whereas key-dependent steganographic schemes adhere to Kerckhoffs\'s principle.')
 
-encrypt('sample-image.png',
+encrypt('../sample-image.png',
         message,
         'encrypted-image.png',
         'blue',
         False)
 
-decrypted_message = decrypt('encrypted-image.png', 'blue', False)
+decrypted_message = decrypt('../encrypted-image.png', 'blue', False)
 
 print 'Message to encode into image:'
 print message
