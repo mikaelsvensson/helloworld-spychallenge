@@ -1,5 +1,11 @@
 # Challenge 3
 
+The task is to decrypt messages like these:
+
+ * knk vyfovkmo fkb odd wkdowkdscu qoxs ymr exnob pybcdk rkvfkx kf kbdyxrexnbkdkvod cukzkno ryx fkn cyw cuevvo fsck csq fkbk nox pybcdk nkdybkvqybsdwox.
+ * pybcukbox crsbvoi tkmucyx qtybno nod wytvsqd pyb kxnbk kdd ezzpsxxk dovopkhox, uxkzzdovopyxox, cyvmovvob ymr yzdscuk uklvkb lvkxn wimuod kxxkd.
+ * exnob kxnbk fkbvncubsqod ezzpkxx cuknoczovobcukx ymr ezzpsxxkbox roni vkwkbb ox wodyn pyb kdd bknsycdibk dybzonob ymr cyw coxkbo vkno qbexnox pyb lvkxnkd qzc.
+
 ## 1st Clue, The Hard Clue
 
 **English:**
@@ -15,3 +21,9 @@ If you don’t want to write a program that generates 20-something different pos
 
 **Svenska:**
 Om du inte vill skriva ett program som genererar 20-någonting olika lösningsförslag, ett per förskjutningssteg, så kan du automatisera det genom att använda en lista över de vanligaste orden i svenska språket och räkna vilket lösningsförslag som resulterar i flest svenska ord.
+
+## Code Samples
+
+Not enough time to come up with full solution on your own? Get inspiration from the available solutions:
+
+* The Python script ceasar_basic.py can both encrypt and decrypt messages.  

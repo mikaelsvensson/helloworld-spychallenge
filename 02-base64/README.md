@@ -1,5 +1,11 @@
 # Challenge 2
 
+The task is to decode messages like these:
+
+ * VGhlcmUncyBubyBuZWVkIHRvIGltYWdpbmUgdGhhdCB5b3UncmUgYSB3b25kcm91cyBiZWF1dHksIGJlY2F1c2UgdGhhdCdzIHdoYXQgeW91IGFyZS4=
+ * SSBkbyBub3QgdW5kZXJzdGFuZCB3aHkgdGhlIGhlcm9pbmUgaW4gdGhlIGJvb2sgaXMgYWx3YXlzIHByZXR0aWVyIHRoYW4gdGhlIG9uZSBhdCBob21lLg==
+ * VGhhdCdzIG1vc3QgZXh0cmFvcmRpbmFyeSwgYnV0IEknbSBzbyB1c2VkIHRvIHlvdXIgZG9pbmcgZXh0cmFvcmRpbmFyeSB0aGluZ3MgdGhhdCBub3RoaW5nIHN1cnByaXNlcyBtZS4gQmVzaWRlcyBJJ20gZmVlbGluZyBtZWxhbmNob2x5IGp1c3Qgbm93Lg==
+
 ## 1st Clue, The Hard Clue
 
 **English:**
@@ -23,3 +29,9 @@ Many programming languages have functions to decode base64. You can probably als
 
 **Svenska:**
 Många programmeringsspråk har funktioner för att avkoda base64. Du kan säkert också hitta något på webben för att göra det åt dig.
+
+## Code Samples
+
+Not enough time to come up with full solution on your own? Get inspiration from the available solutions:
+
+* The Python script base64_encoding.py can both encode and decode messages (we use the words encode/decode instead of encrypt/decrypt since Base64 was never intended as a way of sending secret information).  

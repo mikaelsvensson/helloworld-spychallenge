@@ -1,5 +1,11 @@
 # Challenge 4
 
+The task is to decrypt messages like these:
+
+ * 1 159 1204 39 4005 201 1031
+ * 1 228 9447 4 40 786 9 8 1031 9 586
+ * 16 17 7525 23 1031 110 72 16 333 148 9 132 11670 8 1779
+
 ## 1st Clue, The Hard Clue
 
 **English:**
@@ -23,3 +29,10 @@ The highest number is never larger than the number of lines in the big text file
 
 **Svenska:**
 Det högsta numret är inte större än antalet rader i den stora textfilen.
+
+## Code Samples
+
+Not enough time to come up with full solution on your own? Get inspiration from the available solutions:
+
+* The Python script, dictionary_compression.py, reads the input file (_input.txt_) and encrypts each line using the wordlist. It then decrypts the encrypted text so that you can see if all input words are present in the book.  
+* The Java application, spychallenge.Dictionary, only does decryption.

@@ -1,5 +1,11 @@
 # Challenge 1
 
+The task is to decode messages like these:
+
+* 75088FF08
+* 65438E3ED
+* 20ED5EA4CD
+
 ## 1st Clue, The Hard Clue
 
 **English:**
@@ -23,3 +29,9 @@ Hexadecimal uses sixteen distinct symbols, most often the symbols 0–9 to repre
 
 **Svenska:**
 Hexadecimala tal använder sexton symboler, oftast används 0-9 för att representera värdena noll till nio och sedan A-F (eller a-f) för att representera tio till femton. Konvertera hexadecimala värden till vanliga decimala tal.
+
+## Code Samples
+
+Not enough time to come up with full solution on your own? Get inspiration from the available solutions:
+
+* The Python script hex_encoding.py can both encode and decode messages (we use the words encode/decode instead of encrypt/decrypt since hexadecimal notation was never intended as a way of sending secret information).  

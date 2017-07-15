@@ -1,5 +1,9 @@
 # Challenge 6
 
+The task is to decrypt messages like these:
+
+ * encrypted-image.png
+
 ## 1st Clue, The Hard Clue
 
 **English:**
@@ -23,3 +27,10 @@ We have gather enough sample data to conclusively state that the hidden message 
 
 **Svenska:**
 Vi har samlat in tillräckligt med information för att vara säkra på att det dolda meddelandet är kodat i varje bild genom att först göra om meddelandet, textsträngen, till en serie av bytes (en ‘byte array’) och sedan ersätta ‘det blå värdet’, med början i övre vänstra hörnet, med dessa bytes. För att avsluta meddelandet så verkar attackerarna avsluta ‘byte-arrayen’ med värdet 0.
+
+## Code Samples
+
+Not enough time to come up with full solution on your own? Get inspiration from the available solutions:
+
+* The Python script, image_bytes.py, contains one method for embedding a message into an image and for extracting a message from an image. This solution supports embedding the information into any of the three colour channels and can also write "horizontally or vertically".
+* The Java application, spychallenge.HiddenBytes, only does message extraction. It supports embedded messages in all three channels but does not support "vertical" messages (only "horizontal").
